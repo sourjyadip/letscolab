@@ -1,33 +1,49 @@
 body  
 {  
+    text-align: center;
     margin: 0;  
-    padding: 0;  
+    padding: 0; 
     background-color:#EBF5FB;  
     font-family: 'Arial';  
 }  
 .login
 {       
-         
+       
+        align-content: center;
         width: 382px;  
         overflow: hidden;  
         margin: auto;  
-        margin: 10 0 0 500px;  
-        padding: 70px;  
+        margin: 10 0 0 475px;  
+        /*padding: 70px;*/  
         background:#A6ACAF  ;  
-        border-radius: 15px ;  
+        border-radius: 15px ; 
+        padding-top: 20px;
+        padding-bottom: 20px;
 }  
 h1
 {  
     text-align: center;  
     color: #277582;  
      
-}  
+}
+
+p
+{
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
 
 h2
-{   font-size: 30px;
+{   
+    margin-bottom: 0px;
+    font-size: 80px;
     font-family : bodoni;
-    padding-left: 20px; 
+    /*padding-left: 20px;*/ 
     color: black;
+    padding-top: 20px;
 }
 
 label
